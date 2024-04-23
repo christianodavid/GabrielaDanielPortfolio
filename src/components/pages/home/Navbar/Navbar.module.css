@@ -10,6 +10,15 @@
   z-index: 999;
 }
 
+.navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 4px rgba(185, 22, 70, 0.1);
+  height: 6rem;
+}
+
 .navbar_logo {
   font-family: var(--font-brittany-signature);
   color: var(--pink-colour);
