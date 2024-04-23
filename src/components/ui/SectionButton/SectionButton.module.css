@@ -11,21 +11,21 @@
 }
 
 @media (max-width: 1024px) {
-  .csection_button {
+  .section_button {
     font-size: var(--text-2xl-font-size);
     line-height: var(--text-2xl-line-height);
   }
 }
 
 @media (max-width: 768px) {
-  .csection_button {
+  .section_button {
     font-size: var(--text-xl-font-size);
     line-height: var(--text-lg-line-height);
   }
 }
 
 @media (max-width: 640px) {
-  .csection_button {
+  .section_button {
     font-size: var(--text-lg-font-size);
   }
 }
