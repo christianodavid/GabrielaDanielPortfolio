@@ -7,6 +7,7 @@ import ChroniclesSection from "./components/pages/home/ChroniclesSection/Chronic
 import ChroniclesData from "./components/pages/home/ChroniclesSection/data/ChroniclesData";
 import MagazineSection from "./components/pages/home/MagazineSection/MagazineSection";
 import AudiovisualsSection from "./components/pages/home/AudiovisualsSection/AudiovisualsSection";
+import ContactSection from "./components/pages/home/ContactSection/ContactSection";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       ))}
       <MagazineSection />
       <AudiovisualsSection />
+      <ContactSection />
     </>
   );
 };

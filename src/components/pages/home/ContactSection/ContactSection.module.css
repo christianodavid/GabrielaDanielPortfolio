@@ -1,0 +1,28 @@
+.section_contact__container {
+  padding: 6rem 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  position: relative;
+}
+
+.footer {
+  padding-left: 3rem;
+  width: 100%;
+  position: absolute;
+  bottom: -5rem;
+  left: 0;
+  font-family: var(--font-poppins);
+  color: rgba(185, 22, 70, 0.8);
+  font-size: var(--text-xs-font-size);
+  line-height: var(--text-xs-line-height);
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .section_contact__container {
+    flex-direction: column;
+  }
+}
