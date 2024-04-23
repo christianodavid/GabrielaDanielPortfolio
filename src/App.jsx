@@ -6,6 +6,7 @@ import TextsSection from "./components/pages/home/TextsSection/TextsSection";
 import ChroniclesSection from "./components/pages/home/ChroniclesSection/ChroniclesSection";
 import ChroniclesData from "./components/pages/home/ChroniclesSection/data/ChroniclesData";
 import MagazineSection from "./components/pages/home/MagazineSection/MagazineSection";
+import AudiovisualsSection from "./components/pages/home/AudiovisualsSection/AudiovisualsSection";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <ChroniclesSection key={index} data={data} />
       ))}
       <MagazineSection />
+      <AudiovisualsSection />
     </>
   );
 };
