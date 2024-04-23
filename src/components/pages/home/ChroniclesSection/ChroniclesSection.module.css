@@ -1,0 +1,33 @@
+.section_chronicles__container {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.container_content {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  gap: 2rem;
+}
+
+.container_image {
+  border: 2px solid var(--pink-colour);
+  max-width: 800px;
+  object-fit: contain;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .section_chronicles__container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container_content {
+    width: auto;
+  }
+}
