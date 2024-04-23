@@ -1,5 +1,5 @@
-import ProjectLink from "./ProjectLink";
 import styles from "./TextCard.module.css";
+import ProjectLink from "../../../../ui/ProjectLink/ProjectLink";
 
 const TextCard = ({ data }) => {
   return (
