@@ -1,0 +1,26 @@
+.section_skills__container {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.section_skills__container_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  height: 100%;
+}
+
+.container_skills__info {
+  list-style: disc;
+}
+
+@media (max-width: 1024px) {
+  .section_skills__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}

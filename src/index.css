@@ -54,3 +54,11 @@ body {
   background-color: var(--main-background-colour);
   color: var(--black-colour);
 }
+
+.dark_cyan_colour {
+  color: var(--dark-cyan-colour);
+}
+
+.font_bold {
+  font-weight: 600;
+}

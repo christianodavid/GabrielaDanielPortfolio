@@ -42,7 +42,7 @@
 }
 
 .section_about__container_image {
-  background-image: url("/gabi.png");
+  background-image: url("/images/gabi.png");
   width: 21.875rem;
   height: 21.875rem;
   background-size: cover;
