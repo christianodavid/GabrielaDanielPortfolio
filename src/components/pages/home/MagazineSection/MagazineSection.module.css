@@ -1,0 +1,48 @@
+.section_magazine__container {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.section_magazine__container_text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section_magazine__container_image {
+  display: flex;
+  align-self: center;
+  background-image: url("/images/gralha.png");
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1024px) {
+  .section_magazine__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section_magazine__container_image {
+    width: 18.75rem;
+    height: 18.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .section_magazine__container_image {
+    width: 15.625rem;
+    height: 15.625rem;
+  }
+}

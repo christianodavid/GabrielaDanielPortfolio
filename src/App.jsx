@@ -5,6 +5,7 @@ import SkillsSection from "./components/pages/home/SkillsSection/SkillsSection";
 import TextsSection from "./components/pages/home/TextsSection/TextsSection";
 import ChroniclesSection from "./components/pages/home/ChroniclesSection/ChroniclesSection";
 import ChroniclesData from "./components/pages/home/ChroniclesSection/data/ChroniclesData";
+import MagazineSection from "./components/pages/home/MagazineSection/MagazineSection";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       {ChroniclesData.map((data, index) => (
         <ChroniclesSection key={index} data={data} />
       ))}
+      <MagazineSection />
     </>
   );
 };
