@@ -1,0 +1,28 @@
+.section_title {
+  text-transform: uppercase;
+  font-family: var(--font-bebas-neue);
+  font-size: var(--text-3xl-font-size);
+  line-height: var(--text-3xl-line-height);
+  letter-spacing: 0.05em;
+  padding: 0 3rem;
+}
+
+@media (max-width: 1024px) {
+  .section_title {
+    font-size: var(--text-2xl-font-size);
+    line-height: var(--text-2xl-line-height);
+  }
+}
+
+@media (max-width: 768px) {
+  .section_title {
+    font-size: var(--text-xl-font-size);
+  }
+}
+
+@media (max-width: 640px) {
+  .section_title {
+    font-size: var(--text-lg-font-size);
+    line-height: var(--text-lg-line-height);
+  }
+}
