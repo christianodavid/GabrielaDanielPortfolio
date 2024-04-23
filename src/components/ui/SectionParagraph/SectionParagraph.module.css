@@ -1,0 +1,24 @@
+.section_paragraph {
+  font-family: var(--font-poppins);
+  font-size: var(--text-2xl-font-size);
+  line-height: var(--text-2xl-line-height);
+}
+
+@media (max-width: 1024px) {
+  .section_paragraph {
+    font-size: var(--text-xl-font-size);
+    line-height: var(--text-lg-line-height);
+  }
+}
+
+@media (max-width: 768px) {
+  .section_paragraph {
+    font-size: var(--text-lg-font-size);
+  }
+}
+
+@media (max-width: 640px) {
+  .section_paragraph {
+    font-size: var(--text-base-font-size);
+  }
+}
