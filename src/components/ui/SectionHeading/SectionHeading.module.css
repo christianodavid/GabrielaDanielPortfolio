@@ -1,0 +1,28 @@
+.section_heading {
+  font-family: var(--font-bebas-neue);
+  font-size: var(--text-5xl-font-size);
+  line-height: var(--text-5xl-line-height);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .section_heading {
+    font-size: var(--text-4xl-font-size);
+    line-height: var(--text-4xl-line-height);
+  }
+}
+
+@media (max-width: 768px) {
+  .section_heading {
+    font-size: var(--text-3xl-font-size);
+    line-height: var(--text-3xl-line-height);
+  }
+}
+
+@media (max-width: 640px) {
+  .section_heading {
+    font-size: var(--text-2xl-font-size);
+    line-height: var(--text-2xl-line-height);
+  }
+}
