@@ -1,5 +1,11 @@
+import HeroSection from "./components/pages/home/HeroSection/HeroSection";
+
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 };
 
 export default App;
