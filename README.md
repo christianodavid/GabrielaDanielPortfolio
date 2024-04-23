@@ -1,4 +1,4 @@
-# Portfolio Jornalístico para Gabriela Daniel
+# Gabriela Daniel's Portfolio
 
 - About the repo:
 
