@@ -1,0 +1,29 @@
+.project_link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: var(--font-bebas-neue);
+  font-size: var(--text-3xl-font-size);
+  line-height: var(--text-3xl-line-height);
+  color: var(--dark-cyan-colour);
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 1024px) {
+  .project_link {
+    font-size: var(--text-2xl-font-size);
+    line-height: var(--text-2xl-line-height);
+  }
+}
+
+@media (max-width: 768px) {
+  .project_link {
+    font-size: var(--text-xl-font-size);
+    line-height: var(--text-lg-line-height);
+  }
+}
+
+@media (max-width: 640px) {
+  .project_link {
+    font-size: var(--text-lg-font-size);
+  }
+}
